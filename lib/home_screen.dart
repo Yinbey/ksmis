@@ -87,7 +87,8 @@ class _HomeScreenState extends State<HomeScreen> {
                               bool isWide = constraints.maxWidth > 600;
 
                               Widget content = Row(
-                                crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                //crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Image.asset(
                                     'assets/images/logo.png',
